@@ -1,0 +1,152 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .wrapper {
+            background: url(card2.jpg)no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        .navbar {
+            height: 80px;
+            width: auto;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        
+        .logo {
+            width: 200px;
+            height: auto;
+            padding: 20px 70px;
+        }
+        
+        .navbar ul {
+            float: right;
+            margin-right: 20px;
+        }
+        
+        .navbar ul li {
+            list-style: none;
+            display: inline-block;
+            line-height: 100px;
+        }
+        
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: 'Roboto', sans-serif;
+            transition: .4s;
+        }
+        
+        .navbar ul li a.active,
+        .navbar ul li a:hover {
+            background: salmon;
+            border-radius: 2 px;
+        }
+        
+        .wrapper .center {
+            position: absolute;
+            top: 50%;
+            left: 55%;
+            transform: translate(-50%, -50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        
+        .center h1 {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;
+        }
+        
+        .center h2 {
+            color: white;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        
+        .center .buttons {
+            margin: 35px 280px;
+        }
+        
+        .buttons button {
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #ffb3bf;
+            background: red;
+            border: 1px solid#cc0000;
+            outline: none;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+        
+        button.btn {
+            margin-left: 20px;
+        }
+        
+        .buttons button:hover {
+            background: green;
+        }
+        
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background: white;
+        }
+        
+        .container {
+            padding: 20px 0px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .heading h2 {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 20 px;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .card {
+            background: white;
+            width: 270px;
+            height: 400px;
+            margin: 20px;
+        }
+        
+        .btn {
+            text-align: center;
+        }
+        
+        .card-image {
+            background-color: aqua;
+            height: 170px;
+            margin-bottom: 15px;
+            background-size: cover;
+        }
+        
+        .car-1 {
+            background-image: url("card.jpg");
+        }
+        
+        .car-2 {
+            background-image: url("card2.jpg");
+        }
+        
+        .car-3 {
+            background-image: url("card3.jpg");
+        }
